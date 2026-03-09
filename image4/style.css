@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.extra-label {
+    background-color: yellow; /* تمييز كلمة Extra باللون الأصفر */
+    display: inline-block;
+    padding: 2px 5px;
+}
+
+table {
+    border-collapse: separate; /* ضروري لترك مسافات بين المربعات */
+    border-spacing: 8px;      /* المسافة بين كل مربع والآخر */
+}
+
+.box {
+    background-color: #e0e0e0; /* لون رمادي فاتح للخلفية */
+    border: 1px solid #bcbcbc; /* حدود رمادية خفيفة */
+    color: #002266;            /* لون النص أزرق غامق */
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: normal;
+}
+
+/* تنسيق خاص للخلايا الفارغة لكي لا تظهر كصناديق */
+.empty {
+    border: none;
+    background-color: transparent;
+    width: 20px; /* مساحة الفراغ في المنتصف */
+}
+
+/* تمييز الحروف K و P */
+.header {
+    font-size: 1.2em;
+}

@@ -1,0 +1,16 @@
+table {
+    /* تجعل الخلايا متباعدة عن بعضها كما يظهر في الصورة */
+    border-spacing: 15px; 
+}
+
+td {
+    border: 2px solid #555;   /* حدود الخلية */
+    padding: 10px 20px;       /* مسافة داخلية للنص */
+    border-radius: 10px;      /* لجعل الزوايا دائرية */
+    text-align: center;       /* توسيط النص */
+    font-family: serif;       /* نوع الخط كما في الصورة */
+    background-color: white;  /* لون خلفية الخلية */
+    
+    /* لإضافة الظل الموجود أسفل ويمين الخلية */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}

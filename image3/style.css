@@ -1,0 +1,47 @@
+body {
+    font-family: 'Times New Roman', Times, serif; /* الخط يشبه الخطوط الكلاسيكية */
+    padding: 20px;
+}
+
+.main-title {
+    text-decoration: underline; /* وضع خط تحت العنوان الرئيسي */
+}
+
+/* تنسيق الروابط البرتقالية */
+.orange-link {
+    color: orange;
+    text-decoration: underline;
+}
+
+/* الرابط الذي يحتوي على خلفية صفراء */
+.highlight-link {
+    background-color: yellow;
+    color: purple;
+    text-decoration: underline;
+}
+
+/* الروابط الحمراء مع خط تحتها */
+.red-link {
+    color: red;
+    text-decoration: underline;
+}
+
+/* القوائم الفرعية لتغيير شكل النقطة */
+.sub-list {
+    list-style-type: circle; /* دائرة مفرغة كما في الصورة */
+}
+
+.blue-text {
+    color: blue;
+    font-weight: bold;
+}
+
+/* تنسيق مجموعة الألوان الأخيرة */
+.colors-group {
+    margin-left: 40px;
+    font-weight: normal;
+}
+
+.c-red { color: red; }
+.c-green { color: green; }
+.c-blue { color: blue; }

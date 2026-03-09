@@ -1,0 +1,32 @@
+body {
+    background-color: #fdfdf0; /* لون الخلفية المصفر قليلاً كما في الصورة */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 20px;
+}
+
+.row {
+    display: flex;       /* نستخدم Flexbox لتوزيع المقالات بجانب بعضها */
+    gap: 20px;           /* مسافة بين المقالات */
+    margin-bottom: 20px;
+}
+
+article {
+    background-color: #e8eaf6; /* لون خلفية المقالات الرمادي/الأزرق الفاتح */
+    padding: 10px;
+    flex: 1;             /* لجعل المقالات متساوية في العرض */
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.scrolling-box {
+    border: 2px solid black;
+    padding: 10px;
+    height: 60px;        /* تحديد الطول لإجبار السكرول على الظهور */
+    overflow-y: scroll;  /* إضافة شريط التمرير العمودي */
+    margin-bottom: 20px;
+    font-weight: bold;
+    background-color: white;
+}
